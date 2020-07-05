@@ -717,6 +717,10 @@ body {
   color: #e6e6e6;
 }
 
+.footer__copyright {
+  color: #ffffff;
+}
+
 @media (max-width: 425px) {
   .section__wrap {
     padding: 40px 0;
@@ -757,10 +761,13 @@ body {
     top: -40px;
   }
   .request__input {
-    width: 300px;
+    width: 290px;
   }
   .request__select {
-    width: 300px;
+    width: 290px;
+  }
+  .request__select_iner::after {
+    right: 36px;
   }
   .footer__menu-item {
     margin: 10px 20px;
